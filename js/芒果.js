@@ -20,7 +20,7 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '4k决天影4k高码率🌶️🐔国产剧&4k决天影4k高码率🌶️🐔新电影&4k决天影4k高码率🌶️🐔国产综艺&4k决天影4k高码率🌶️🐔国产动漫&4k决天影4k高码率🌶️🐔国产纪录片&4k决天影4k高码率🌶️🐔国产教育&4k国产少儿',
+    class_name: '极速4K电视剧&4k极速4K电影&4k极速4K综艺&4k极速4K动漫&极速4K纪录片&极速4K教育&极速4K少儿',
     class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
@@ -833,7 +833,7 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "决天影4k";
+        VOD.vod_play_from = "极速4K";
         VOD.vod_play_url = d.map(function(it) {
             return it.title + "$" + it.url
         }).join("#");
