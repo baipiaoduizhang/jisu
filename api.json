@@ -64,12 +64,6 @@
       "api": "./js/drpy2.min.js",
       "ext": "./js/酷酷.js"
     },
-     {
-            "key": "[4K]山楂",
-            "name": "山楂｜4K",
-            "type": 3,
-            "api": "https://13395.kstore.space/%E5%BD%B1%E8%A7%86%E4%BB%93/[4K]山楂.py"
-        },
         {
             "key": "[4K]云播",
             "name": "云播｜4K",
@@ -241,39 +235,6 @@
         "decrypt": "0"
       }
     },
-   {
-      "key": "蔬菜",
-      "name": "蔬菜｜4K",
-      "type": 3,
-      "jar": "./1116.jar",
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://huohu.yihn.cc",
-        "site": "",
-        "dataKey": "huohushipingetap",
-        "dataIv": "huohushipingetap",
-        "deviceId": "",
-        "version": "140",
-        "ua": ""
-      }
-    },
-    {
-      "key": "梨瓜",
-      "name": "梨瓜｜4K",
-      "type": 3,
-      "jar": "./1116.jar",
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "./lib/getapi.txt",
-        "dataKey": "A9f3Zx7Qk2Lm8P1N",
-        "dataIv": "A9f3Zx7Qk2Lm8P1N",
-        "deviceId": "",
-        "version": ""
-      }
-    },
     {
       "key": "热播影视",
       "name": "热播｜影視",
@@ -304,10 +265,16 @@
     },
     {
       "key": "瓜子影视.py",
-      "name": 瓜子｜蓝光",
+      "name": 瓜子｜蓝光,
       "type": 3,
       "api": "./py/小瓜子.py"
     },
+{
+            "key": "瓜子影视",
+            "name": "瓜子｜蓝光",
+            "type": 3,
+            "api": "./py/小瓜子.py"
+        },
 {
       "key": "cat_荐片app",
       "name": "荐片｜蓝光",
