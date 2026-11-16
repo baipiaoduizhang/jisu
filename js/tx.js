@@ -653,7 +653,7 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '决天影4K电视剧&决天影4K电影&决天影4K综艺&决天影4K纪录片&决天影4K动漫&决天影4K少儿&决天影4K短剧',
+    class_name: '极速4K电视剧&极速4K电影&极速4K综艺&极速4K纪录片&极速4K动漫&极速4K少儿&极速4K短剧',
     class_url: '100113&100173&100109&100105&100119&100150&110755',
     limit: 20,
     play_parse: true,
@@ -932,7 +932,7 @@ var rule = {
         });
 
         if (zp.length > 0) {
-            playFrom.push("决天影4k❤️");
+            playFrom.push("极速4K");
             playUrl.push(zp.map(it => it.title + "$" + it.url).join("#"));
         }
 
@@ -1013,7 +1013,7 @@ var rule = {
 
         function isQQPlatform(playSites) {
             if (!playSites || !Array.isArray(playSites)) return true; // 如果没有平台信息，默认保留
-            return playSites.some(site => site.enName && site.enName.toLowerCase() === '决天影4k');
+            return playSites.some(site => site.enName && site.enName.toLowerCase() === '极速4K');
         }
 
         try {
