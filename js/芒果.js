@@ -20,7 +20,7 @@ var rule = {
         'User-Agent': 'PC_UA'
     },
     timeout: 5000,
-    class_name: '极速4K电视剧&4k极速4K电影&4k极速4K综艺&4k极速4K动漫&极速4K纪录片&极速4K教育&极速4K少儿',
+    class_name: '极速4K电视剧&极速4K电影&极速4K综艺&4k极速4K动漫&极速4K纪录片&极速4K教育&极速4K少儿',
     class_url: '2&3&1&50&51&115&10',
     filter: {
         "1": [{
