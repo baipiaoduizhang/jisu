@@ -106,11 +106,77 @@
             "type": 3,
             "api": "https://13395.kstore.space/%E5%BD%B1%E8%A7%86%E4%BB%93/移动4k (1).py"
         },    
+     {
+      "key": "云播",
+      "name": "云播 ｜4K",
+      "type": 3,
+      "api": "csp_AppYB",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_xiaoji",
+      "name": "小鸡看看｜4k",
+      "type": 3,
+      "jar": "./spider.jar",
+      "api": "csp_Xiaoji",
+      "group": "综合影视",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+   {
+      "key": "cy_about",
+      "name": "关于｜4k",
+      "type": 3,
+     "jar": "./spider.jar",
+      "api": "csp_About",
+      "group": "关于",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "api_version": "v82"
+      }
+    },
+    {
+      "key": "cy_fourkmp",
+      "name": "4KMP｜4k",
+      "type": 3,
+     "jar": "./spider.jar",
+      "api": "csp_FourKMP",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cy_sikv4k",
+      "name": "4K影视｜4k",
+      "type": 3,
+     "jar": "./spider.jar",
+      "api": "csp_SiKv4K",
+      "group": "4K专区",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "未来",
+      "name": "未来｜4K",
+      "type": 3,
+      "jar": "./1117.jar",
+      "api": "csp_AppWL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
     {
       "key": "下饭",
       "name": "下饭｜4K",
       "type": 3,
-      "jar": "./1116.jar",
+      "jar": "./1117.jar",
       "api": "csp_JuXiaFan",
       "searchable": 1,
       "quickSearch": 1,
